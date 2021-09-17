@@ -1,3 +1,8 @@
+---
+title: Rikisuto Di Fraponic
+author: SRWeaver
+tags: naivebayes baysianseed grammar rikisuto
+---
 This is an alternative grammar approach for chatbots using a minimal request grammar:
 
 ~~~ruby
