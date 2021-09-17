@@ -11,7 +11,13 @@ print "Word  >> "; word  = gets.chomp
 new_model    = "a.train(:#{label}, '#{word}', 'word')"
 
 # Assign new baysian model with data archive and new model.
-baysian_model = "
+baysian_model = "number = 0
+
+print "<< "; input = gets.chomp
+
+size_limit = input.size.to_i
+
+size_limit.times do
     require 'naive_bayes'
 
     a = NaiveBayes.new(:honorific,
@@ -34,10 +40,12 @@ baysian_model = "
     #{new_model}
 
     print '<< '
-    b = gets.chomp
+    b = input[number]
 
-    print 'Results >> '
     puts a.classify(*b)
+
+    number = number + 1
+end
 "
 
 # Create active archive of data.
