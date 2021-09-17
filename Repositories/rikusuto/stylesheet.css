@@ -1,0 +1,36 @@
+salut, ejento, rikusuto, atemu, nitote, kara, yuza, lieu {
+  font-family: monospace;
+}
+
+salut {
+  color: lime;
+}
+
+ejento {
+  color: blue;
+}
+
+rikusuto {
+  color: red;
+}
+
+atemu {
+  color: purple;
+}
+
+kara, nitote {
+  color: lime;
+}
+
+lieu, yuza {
+  color: yellow;
+}
+
+topic {
+  background-color: black;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
