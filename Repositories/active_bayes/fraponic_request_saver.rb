@@ -22,18 +22,13 @@ size_limit = input.size.to_i
 size_limit.times do
     require 'naive_bayes'
 
-    a = NaiveBayes.new(:honorific,
-                       :greeting,
-                       :personal_pronouns,
-                       :offensive_pronouns,
-                       :word_genders,
-                       :family,
-                       :colors,
-                       :clothes,
-                       :food,
-                       :conjunctions,
-                       :request,
-                       :locations,
+    a = NaiveBayes.new(:salut,
+                       :ejento,
+                       :rikisuto,
+                       :atemu,
+                       :nitotekara,
+                       :yuza,
+                       :lieu,
     )
 
     a.db_filepath = 'data/memory/archive.nb'
