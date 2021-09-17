@@ -1,3 +1,5 @@
+# Rename source code .seed.rb and use shell to execute.
+
 # Create an archive of the data.
 data_archive = File.read("data/memory/data_archive.txt").strip.to_s
 
