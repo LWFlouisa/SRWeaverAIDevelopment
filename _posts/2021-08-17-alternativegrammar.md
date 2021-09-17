@@ -67,3 +67,5 @@ open("loader.rb", "w") { |f|
 # system("ruby loader.rb")
 
 ~~~
+
+And yes if you multiply each increment by 10, the tesla vortex number system is an efficient way to get input vectors in lue of a baysian algorithm, or if your using a decision tree to choose between baysian seed processes.
