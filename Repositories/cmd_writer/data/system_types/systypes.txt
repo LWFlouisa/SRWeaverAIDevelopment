@@ -1,0 +1,2 @@
+clear; cd rikusuto; ./generate.sh
+clear; echo "Hello World"
