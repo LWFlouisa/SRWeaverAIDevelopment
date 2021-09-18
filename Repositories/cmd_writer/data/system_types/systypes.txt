@@ -1,2 +1,4 @@
-clear; cd rikusuto; ./generate.sh
-clear; echo "Hello World"
+date
+cal
+ls -la
+hostname; hostname -i; hostname -I
