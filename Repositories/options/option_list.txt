@@ -1,4 +1,0 @@
-pig
-apples
-cherry_trees
-magpies
